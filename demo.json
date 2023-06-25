@@ -1,0 +1,30 @@
+[
+  {
+    "expression": "float result = 0;\nfor (int i = 0; i < 5; i++)\n{\n    result += (float)Math.Sin(input * i);\n}\nreturn result;\n",
+    "color": "0, 64, 128"
+  },
+  {
+    "expression": "float result = 0;\nfor (int i = 0; i < 5; i++)\n{\n    result += (float)Math.Cos(input * i);\n}\nreturn result;\n",
+    "color": "Aqua"
+  },
+  {
+    "expression": "float result = 0;\nfor (int i = 0; i < 5; i++)\n{\n    result += (float)Math.Cos(input * (i + 1));\n}\nreturn result;",
+    "color": "255, 128, 64"
+  },
+  {
+    "expression": "float result = 0;\nfor (int i = 0; i < 5; i++)\n{\n    result += (float)Math.Tan(input + i);\n}\nreturn result;\n",
+    "color": "Maroon"
+  },
+  {
+    "expression": "float floatValue = 3.14f;\n        return floatValue;",
+    "color": "Yellow"
+  },
+  {
+    "expression": "float floatValue = 3.14f;\n        return -floatValue;",
+    "color": "255, 128, 64"
+  },
+  {
+    "expression": "        const int numValues = 5; // Number of random values to generate\n        float sum = 0.0f;\n\n        Random random = new Random();\n\n        // Loop to generate random values and calculate their sum\n        for (int i = 0; i < numValues; i++)\n        {\n            float randomValue = (float)random.NextDouble(); // Generate a random floating-point number between 0 and 1\n            sum += randomValue;\n        }\n\n        float average = sum / numValues;\n        return average;",
+    "color": "255, 0, 128"
+  }
+]
